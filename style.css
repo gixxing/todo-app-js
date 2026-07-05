@@ -1,0 +1,104 @@
+body{
+    background-color: rgb(101, 101, 230);
+    display: flex;
+    justify-content: center;
+    font-family: arial;
+    /* align-items: center; */
+    margin: 0;
+}
+.container{
+    margin-top: 100px;
+    max-width: 500px;
+    background-color: white;
+    border-radius: 15px;
+    min-height: 500px;
+
+}
+.container h1{
+    color: rgba(9, 59, 117, 0.845);
+    font-size: 2.3rem;
+    margin: 25px;
+}
+.input input{
+    margin-left: 15px;
+    font-size: 1.1rem;
+    width: 350px;
+    padding : 20px 0px 20px 25px;
+    color: hsl(0, 0%, 50%);
+    background-color: hsl(0, 4%, 89%);
+    border: none;
+    border-radius: 100px;
+}
+input:focus {
+    outline: none;
+    box-shadow: none;
+}
+.input button{
+    font-size: 1.3rem;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 80px;
+    background-color: hsla(39, 100%, 50%, 0.893);
+    margin-right: 20px;
+    cursor: pointer;
+}
+.input button:hover{
+    background-color: hsl(39, 100%, 45%);
+
+}
+
+.tasks ul{
+    list-style: none;
+    font-size: 1.5rem;
+    
+}
+.line{
+    display: inline-block;
+    padding: 0px 10px;
+    margin-bottom: 15px ;
+    min-width: 310px;
+    max-width: 310px;
+}
+
+.completed{
+    text-decoration: line-through;
+}
+
+.tasks li{
+    display: flex;
+    align-items: center;
+}
+
+
+.circleCheck{
+    appearance: none;
+    border: 2px solid black;
+    height: 2.2em;
+    width: 2.2em;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.circleCheck:checked{
+    
+    border: 1px solid black;
+    background-color: hsla(39, 100%, 50%, 0.893);
+}
+.circleCheck:checked::after{
+    content: "✓";
+    color: white;
+    font-size: 1.5em;
+    font-weight: bolder;
+
+}
+
+.delete{
+    border: none;
+    background-color: white;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin:0px 15px 0px 50px;
+    cursor: pointer;
+ }
