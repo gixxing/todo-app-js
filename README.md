@@ -4,6 +4,15 @@ A simple and responsive To-Do application built using **HTML**, **CSS**, and **V
 
 The app allows users to create, manage, and track tasks with persistent storage using the browser's Local Storage.
 
+
+---
+
+## 🌐 Live Demo
+
+🚀 **Live:** https://todo-app-js-orcin.vercel.app/
+
+📂 **Source Code:** https://github.com/gixxing/todo-app-js
+
 ---
 
 ## 🚀 Features
@@ -23,22 +32,6 @@ The app allows users to create, manage, and track tasks with persistent storage 
 - HTML5
 - CSS3
 - JavaScript (ES6)
-
----
-
-## 📂 Project Structure
-
-```
-todo-app/
-│
-├── index.html
-├── style.css
-├── index.js
-├── README.md
-└── images/
-    ├── screenshot-empty.png
-    └── screenshot-tasks.png
-```
 
 ---
 
@@ -72,7 +65,7 @@ todo-app/
 1. Clone the repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/gixxing/todo-app-js
 ```
 
 2. Open the project folder.
